@@ -1,6 +1,6 @@
 {
-  "name": "Small Sharp Tool",
-  "description": "This app does one little thing, and does it well.",
+  "name": "AlloyProxy",
+  "description": "Made by duce",
   "keywords": [
     "productivity",
     "HTML5",
@@ -12,16 +12,6 @@
   "success_url": "/welcome",
   "scripts": {
     "postdeploy": "bundle exec rake bootstrap"
-  },
-  "env": {
-    "SECRET_TOKEN": {
-      "description": "A secret key for verifying the integrity of signed cookies.",
-      "generator": "secret"
-    },
-    "WEB_CONCURRENCY": {
-      "description": "The number of processes to run.",
-      "value": "5"
-    }
   },
   "formation": {
     "web": {
@@ -41,11 +31,6 @@
       "options": {
         "version": "9.5"
       }
-    }
-  ],
-  "buildpacks": [
-    {
-      "url": "https://github.com/stomita/heroku-buildpack-phantomjs"
     }
   ],
   "environments": {
