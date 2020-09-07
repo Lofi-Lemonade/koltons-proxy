@@ -1,35 +1,8 @@
+  
 {
   "name": "AlloyProxy",
-  "description": "Made by duce",
-  "keywords": [
-    "productivity",
-    "HTML5",
-    "scalpel"
-  ],
-  "website": "https://small-sharp-tool.com/",
-  "repository": "https://github.com/jane-doe/small-sharp-tool",
-  "logo": "https://small-sharp-tool.com/logo.svg",
-  "success_url": "/welcome",
-  "scripts": {
-    "postdeploy": "bundle exec rake bootstrap"
-  },
-  "formation": {
-    "web": {
-      "quantity": 1,
-      "size": "standard-1x"
-    }
-  },
-      "plan": "heroku-postgresql",
-      "options": {
-        "version": "9.5"
-      }
-    }
-  ],
-  "environments": {
-    "test": {
-      "scripts": {
-        "test": "bundle exec rake test"
-      }
-    }
-  }
+  "description": "Powerful web proxy for evading censorship",
+  "repository": "https://github.com/titaniumnetwork-dev/alloyproxy",
+  "logo": "https://alphabet-learning.xyz/assets/images/backgrounds/wolf-background.jpg",
+  "keywords": ["node", "express", "unblocker"]
 }
