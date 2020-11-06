@@ -1,4 +1,3 @@
-  importScripts('https://arc.io/arc-sw-core.js')
   const express = require('express'),
   app = express(),
   http = require('http'),
