@@ -7,6 +7,11 @@ function validate() {
     window.location = "proxy.html";
     return false;
   }
+  if (username == "giovanni.yoder" && password == "!giovanni07") {
+    alert("Logged in as Giovanni Yoder");
+    window.location = "proxy.html";
+    return false;
+  }
   if (username == "joshua.biehle" && password == "chickennugget") {
     alert("Logged in as Joshua Biehle");
     window.location = "proxy.html";
