@@ -7,8 +7,9 @@ body {
   background-size: cover;
   text-align: center;
   background-color: black;
+  box-shadow: 2px 2px 2px aqua;
   position: fixed; /* or absolute */
-  top: 15%;
+  top: 10%;
   left: 35%;
 }
 h2 {
@@ -33,9 +34,11 @@ div.main {
   width: 300px;
   padding: 10px 50px 25px;
   border: 2px solid black;
-  border-radius: 10px;
+  border-radius: 15px;
   background-color: black;
   color: blue;
+  border: solid 3px blue;
+  box-shadow: 2px 2px 2px purple;
   font-family: arial;
   float: left;
   margin-top: 50px;
@@ -48,7 +51,8 @@ input[type="password"] {
   margin-bottom: 25px;
   margin-top: 5px;
   border: 2px solid #ccc;
-  color: #4f4f4f;
+  background-color: black;
+  color: aqua;
   font-size: 16px;
   border-radius: 5px;
 }
