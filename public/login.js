@@ -12,8 +12,8 @@ function validate() {
     window.location = "proxy.html";
     return false;
   }
-  if (username == "keiaudre" && password == "!keiaudre07") {
-    alert("Logged in as Giovanni Yoder");
+  if (username == "keiaudre.cannon" && password == "!keiaudre07") {
+    alert("Logged in as Keiaudre Cannon ");
     window.location = "proxy.html";
     return false;
   }
