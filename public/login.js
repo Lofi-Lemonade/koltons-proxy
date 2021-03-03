@@ -21,7 +21,13 @@ function validate() {
     alert("Logged in as Joshua Biehle");
     window.location = "proxy.html";
     return false;
-  } else {
+  }
+   if (username == "cameron.roupe" && password == "022007") {
+    alert("Logged in as Cameron Roupe ");
+    window.location = "proxy.html";
+    return false;
+  }
+  else {
     attempt--;
     alert(
       "WRONG FUCKING PASSWORD IDIOT You have " + attempt + " attempt(s) left"
