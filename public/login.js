@@ -12,6 +12,11 @@ function validate() {
     window.location = "proxy.html";
     return false;
   }
+   if (username == "izaiah.richardson" && password == "!izaiah12") {
+    alert("Logged in as Izaiah Richardson");
+    window.location = "proxy.html";
+    return false;
+  }
   if (username == "keiaudre.cannon" && password == "!keiaudre07") {
     alert("Logged in as Keiaudre Cannon ");
     window.location = "proxy.html";
